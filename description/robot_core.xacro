@@ -43,14 +43,14 @@
             <geometry>
                 <box size="0.3 0.3 0.15"/>
             </geometry>
-            <material name="orange"/>
+            <material name="white"/>
         </visual>
         <collision>
             <origin xyz="0.15 0 0.075"/>
             <geometry>
                 <box size="0.4 0.3 0.15"/>
             </geometry>
-            <material name="orange"/>
+            <material name="white"/>
         </collision>
         <xacro:inertial_box mass="0.5" x="0.3" y="0.3" z="0.15">
             <origin xyz="0.15 0 0.075" rpy="0 0 0"/>
@@ -58,7 +58,7 @@
     </link>
 
     <gazebo reference="chassis">
-        <material>Gazebo/Orange</material>
+        <material>Gazebo/White</material>
     </gazebo>
 
     <!-- left_wheel -->
